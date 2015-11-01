@@ -1,0 +1,22 @@
+PODS:
+  - BEMAnalogClock (1.4)
+  - Bolts/Tasks (1.4.0)
+  - NPReachability (0.2.0)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - SCLAlertView-Objective-C (0.7.9)
+
+DEPENDENCIES:
+  - BEMAnalogClock (~> 1.4)
+  - NPReachability
+  - Parse
+  - SCLAlertView-Objective-C (~> 0.7)
+
+SPEC CHECKSUMS:
+  BEMAnalogClock: 88786eba7763d63abd5a9956c2d1106f30c7f251
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  NPReachability: a6d51e365bc4d277be2c9c9b6bdf1f0dcba99eea
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  SCLAlertView-Objective-C: e36ab12dc1ec4ff6f932888083b21d71a3a1ad23
+
+COCOAPODS: 0.39.0

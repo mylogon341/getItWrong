@@ -15,6 +15,14 @@
 		3C6F1A8E1BE2A68500F310C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6F1A8C1BE2A68500F310C9 /* LaunchScreen.storyboard */; };
 		3C6F1A991BE2A68500F310C9 /* getItWrongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1A981BE2A68500F310C9 /* getItWrongTests.m */; };
 		3C6F1AA41BE2A68500F310C9 /* getItWrongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1AA31BE2A68500F310C9 /* getItWrongUITests.m */; };
+		3C6F1AB31BE2A81A00F310C9 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1AB21BE2A81A00F310C9 /* QuestionViewController.m */; };
+		3C6F1AB61BE2F82700F310C9 /* GlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1AB51BE2F82700F310C9 /* GlobalVars.m */; };
+		3CDCC6B31BE5B67800D22C4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDCC6B21BE5B67800D22C4B /* AudioToolbox.framework */; };
+		3CDCC6B61BE5BF8600D22C4B /* GameOVerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCC6B51BE5BF8600D22C4B /* GameOVerViewController.m */; };
+		3CDCC6BC1BE5C60900D22C4B /* MylogonAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCC6BB1BE5C60900D22C4B /* MylogonAudio.m */; };
+		3CDCC6C01BE5C88200D22C4B /* ticking.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCC6BF1BE5C88200D22C4B /* ticking.aiff */; };
+		3CDCC6C21BE5C93E00D22C4B /* buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCC6C11BE5C93E00D22C4B /* buzz.mp3 */; };
+		AE6E0F0337F359362FAFF539 /* libPods-getItWrong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8316E3332A01069C05ECDD54 /* libPods-getItWrong.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C6F1A7B1BE2A68500F310C9 /* getItWrong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getItWrong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6F1A7B1BE2A68500F310C9 /* Get it Wrong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get it Wrong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6F1A7F1BE2A68500F310C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C6F1A811BE2A68500F310C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C6F1A821BE2A68500F310C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,20 @@
 		3C6F1A9F1BE2A68500F310C9 /* getItWrongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getItWrongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6F1AA31BE2A68500F310C9 /* getItWrongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getItWrongUITests.m; sourceTree = "<group>"; };
 		3C6F1AA51BE2A68500F310C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6F1AB11BE2A81A00F310C9 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		3C6F1AB21BE2A81A00F310C9 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		3C6F1AB41BE2F82700F310C9 /* GlobalVars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVars.h; sourceTree = "<group>"; };
+		3C6F1AB51BE2F82700F310C9 /* GlobalVars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVars.m; sourceTree = "<group>"; };
+		3CDCC6B21BE5B67800D22C4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3CDCC6B41BE5BF8600D22C4B /* GameOVerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOVerViewController.h; sourceTree = "<group>"; };
+		3CDCC6B51BE5BF8600D22C4B /* GameOVerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOVerViewController.m; sourceTree = "<group>"; };
+		3CDCC6BA1BE5C60900D22C4B /* MylogonAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MylogonAudio.h; sourceTree = "<group>"; };
+		3CDCC6BB1BE5C60900D22C4B /* MylogonAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MylogonAudio.m; sourceTree = "<group>"; };
+		3CDCC6BF1BE5C88200D22C4B /* ticking.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ticking.aiff; sourceTree = "<group>"; };
+		3CDCC6C11BE5C93E00D22C4B /* buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzz.mp3; sourceTree = "<group>"; };
+		8316E3332A01069C05ECDD54 /* libPods-getItWrong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-getItWrong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED95869E2DB29A66CC633EAA /* Pods-getItWrong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-getItWrong.release.xcconfig"; path = "Pods/Target Support Files/Pods-getItWrong/Pods-getItWrong.release.xcconfig"; sourceTree = "<group>"; };
+		F4D6E2D5FB0AEEA8075175FF /* Pods-getItWrong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-getItWrong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-getItWrong/Pods-getItWrong.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CDCC6B31BE5B67800D22C4B /* AudioToolbox.framework in Frameworks */,
+				AE6E0F0337F359362FAFF539 /* libPods-getItWrong.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,13 +109,15 @@
 				3C6F1A971BE2A68500F310C9 /* getItWrongTests */,
 				3C6F1AA21BE2A68500F310C9 /* getItWrongUITests */,
 				3C6F1A7C1BE2A68500F310C9 /* Products */,
+				776D62813E79F2DC6F0534D6 /* Pods */,
+				F93DCE843D58210AFA31B17C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3C6F1A7C1BE2A68500F310C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C6F1A7B1BE2A68500F310C9 /* getItWrong.app */,
+				3C6F1A7B1BE2A68500F310C9 /* Get it Wrong.app */,
 				3C6F1A941BE2A68500F310C9 /* getItWrongTests.xctest */,
 				3C6F1A9F1BE2A68500F310C9 /* getItWrongUITests.xctest */,
 			);
@@ -101,11 +127,18 @@
 		3C6F1A7D1BE2A68500F310C9 /* getItWrong */ = {
 			isa = PBXGroup;
 			children = (
+				3CDCC6B91BE5C60900D22C4B /* mylogonAudio */,
+				3C6F1AB41BE2F82700F310C9 /* GlobalVars.h */,
+				3C6F1AB51BE2F82700F310C9 /* GlobalVars.m */,
 				3C6F1A811BE2A68500F310C9 /* AppDelegate.h */,
 				3C6F1A821BE2A68500F310C9 /* AppDelegate.m */,
 				3C6F1A841BE2A68500F310C9 /* ViewController.h */,
 				3C6F1A851BE2A68500F310C9 /* ViewController.m */,
 				3C6F1A871BE2A68500F310C9 /* Main.storyboard */,
+				3C6F1AB11BE2A81A00F310C9 /* QuestionViewController.h */,
+				3C6F1AB21BE2A81A00F310C9 /* QuestionViewController.m */,
+				3CDCC6B41BE5BF8600D22C4B /* GameOVerViewController.h */,
+				3CDCC6B51BE5BF8600D22C4B /* GameOVerViewController.m */,
 				3C6F1A8A1BE2A68500F310C9 /* Assets.xcassets */,
 				3C6F1A8C1BE2A68500F310C9 /* LaunchScreen.storyboard */,
 				3C6F1A8F1BE2A68500F310C9 /* Info.plist */,
@@ -117,6 +150,8 @@
 		3C6F1A7E1BE2A68500F310C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CDCC6C11BE5C93E00D22C4B /* buzz.mp3 */,
+				3CDCC6BF1BE5C88200D22C4B /* ticking.aiff */,
 				3C6F1A7F1BE2A68500F310C9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +175,33 @@
 			path = getItWrongUITests;
 			sourceTree = "<group>";
 		};
+		3CDCC6B91BE5C60900D22C4B /* mylogonAudio */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCC6BA1BE5C60900D22C4B /* MylogonAudio.h */,
+				3CDCC6BB1BE5C60900D22C4B /* MylogonAudio.m */,
+			);
+			path = mylogonAudio;
+			sourceTree = "<group>";
+		};
+		776D62813E79F2DC6F0534D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D6E2D5FB0AEEA8075175FF /* Pods-getItWrong.debug.xcconfig */,
+				ED95869E2DB29A66CC633EAA /* Pods-getItWrong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F93DCE843D58210AFA31B17C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDCC6B21BE5B67800D22C4B /* AudioToolbox.framework */,
+				8316E3332A01069C05ECDD54 /* libPods-getItWrong.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C6F1AA81BE2A68500F310C9 /* Build configuration list for PBXNativeTarget "getItWrong" */;
 			buildPhases = (
+				7C496B6896232503224FA9B2 /* Check Pods Manifest.lock */,
 				3C6F1A771BE2A68500F310C9 /* Sources */,
 				3C6F1A781BE2A68500F310C9 /* Frameworks */,
 				3C6F1A791BE2A68500F310C9 /* Resources */,
+				00927C90F6B0F4D03A971763 /* Embed Pods Frameworks */,
+				B561B007667FC6CC9FD9B1C1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,7 +222,7 @@
 			);
 			name = getItWrong;
 			productName = getItWrong;
-			productReference = 3C6F1A7B1BE2A68500F310C9 /* getItWrong.app */;
+			productReference = 3C6F1A7B1BE2A68500F310C9 /* Get it Wrong.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3C6F1A931BE2A68500F310C9 /* getItWrongTests */ = {
@@ -207,6 +272,7 @@
 				TargetAttributes = {
 					3C6F1A7A1BE2A68500F310C9 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = F9ZXT3C227;
 					};
 					3C6F1A931BE2A68500F310C9 = {
 						CreatedOnToolsVersion = 7.1;
@@ -244,6 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6F1A8E1BE2A68500F310C9 /* LaunchScreen.storyboard in Resources */,
+				3CDCC6C21BE5C93E00D22C4B /* buzz.mp3 in Resources */,
+				3CDCC6C01BE5C88200D22C4B /* ticking.aiff in Resources */,
 				3C6F1A8B1BE2A68500F310C9 /* Assets.xcassets in Resources */,
 				3C6F1A891BE2A68500F310C9 /* Main.storyboard in Resources */,
 			);
@@ -265,13 +333,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00927C90F6B0F4D03A971763 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-getItWrong/Pods-getItWrong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C496B6896232503224FA9B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B561B007667FC6CC9FD9B1C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-getItWrong/Pods-getItWrong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C6F1A771BE2A68500F310C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6F1AB61BE2F82700F310C9 /* GlobalVars.m in Sources */,
 				3C6F1A861BE2A68500F310C9 /* ViewController.m in Sources */,
+				3CDCC6BC1BE5C60900D22C4B /* MylogonAudio.m in Sources */,
 				3C6F1A831BE2A68500F310C9 /* AppDelegate.m in Sources */,
+				3C6F1AB31BE2A81A00F310C9 /* QuestionViewController.m in Sources */,
+				3CDCC6B61BE5BF8600D22C4B /* GameOVerViewController.m in Sources */,
 				3C6F1A801BE2A68500F310C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,23 +531,27 @@
 		};
 		3C6F1AA91BE2A68500F310C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D6E2D5FB0AEEA8075175FF /* Pods-getItWrong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = getItWrong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luke.getItWrong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Get it Wrong";
 			};
 			name = Debug;
 		};
 		3C6F1AAA1BE2A68500F310C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED95869E2DB29A66CC633EAA /* Pods-getItWrong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = getItWrong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.luke.getItWrong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Get it Wrong";
 			};
 			name = Release;
 		};
@@ -498,6 +622,7 @@
 				3C6F1AAA1BE2A68500F310C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6F1AAB1BE2A68500F310C9 /* Build configuration list for PBXNativeTarget "getItWrongTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +631,7 @@
 				3C6F1AAD1BE2A68500F310C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6F1AAE1BE2A68500F310C9 /* Build configuration list for PBXNativeTarget "getItWrongUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +640,7 @@
 				3C6F1AB01BE2A68500F310C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
